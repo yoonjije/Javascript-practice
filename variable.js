@@ -5,7 +5,7 @@
 // strict모드 사용 시 더 빠르고 효율적으로 실행됨
 'use strict';
 
-// 2. Variable
+// 2. Variable, rw(read/write)
 // 변수 : 변경될 수 있는 값
 // let (added in ES6)
 
@@ -37,7 +37,9 @@ console.log(globalName);
 }
 console.log(age);
 
-// 3. Contants
+// 3. Constant, r(read only)
+// use const whenever possible.
+// only use let if variable needs to change.
 // favor immutable data type always for a few reasons;
 // - security(보안상)
 // - thread safety
@@ -48,7 +50,9 @@ const maxNumber = 5;
 
 // 4. Variable types
 // primitive(더이상 쪼갤 수 없는), single item: number, string, boolean, null, undefiedn, symbol 
+// primitive 타입은 value로 값이 저장됨
 // object(위의 single item을 한 단위로, 한 박스로 묶어주는 것), box container
+// object 타입은 object타입이 가리키는 레퍼런스가 메모리에 저장됨 
 // function, first-class function
 // first-class function란: function을 variable에도 parameter에도 인자로도 return타입에도 할당할 수 있음을 말한다.
 

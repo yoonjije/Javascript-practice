@@ -6,3 +6,7 @@
 # JavaScript에서 변수를 선언할 때
 - 값을 변경할 수 있는 Mutable 타입의 let: 메모리의 값을 읽고 쓸 수 있음
 - 값을 변경할 수 업슨 Immutable 타입의 const: 값을 할당한 후로는 자물쇠가 생겨서 읽기만 가능, 더 바람직한 방법
+
+# Immutable type과 Mutable타입
+- Immutable data type: premitive types, frozen objects 
+- Mutable data types: all objects by default are mutable in JS
