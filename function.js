@@ -135,14 +135,15 @@ randomQuiz('love you', printYes, printNo);
 // Arrow function
 // always annoymous
 // 간결하게 사용 가능함
-const simplePrint = function() {
-    console.log('simplePrint!');
-};
+
+// const simplePrint = function() {
+//     console.log('simplePrint!');
+// };
 const simplePrint = () => console.log('simplePrint!'); // 위와 같은 방법
 
-const add = function(a, b) {
-    return a + b;
-}
+// const add = function(a, b) {
+//     return a + b;
+// }
 const add = (a, b) => a + b; // 위와 같은 방법
 const simpleMultiply = (a, b) => {
     // do something more
