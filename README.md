@@ -10,3 +10,9 @@
 # Immutable type과 Mutable타입
 - Immutable data type: premitive types, frozen objects 
 - Mutable data types: all objects by default are mutable in JS
+
+# class란?
+- class
+  - 조금 더 연관있는 데이터들을 한 데 묶어놓는 컨테이너
+  - fields(속성), methods(행동)가 종합적으로 묶여있는 것
+  - 간혹 fields만 묶여있는 경우도 있음
